@@ -29,9 +29,6 @@ document.addEventListener("DOMContentLoaded", function() {
   setInterval(nextSlide, 5500); // Change slide every 3 seconds
 });
 
-
-//
-
 //button open in new tab JS
 function openInNewTab(url) {
   var win = window.open(url, '_blank');
